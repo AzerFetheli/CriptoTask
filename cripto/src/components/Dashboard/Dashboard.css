@@ -1,0 +1,30 @@
+.Dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.div{
+    align-items: center;
+}
+.Text{
+    pad: 10px;
+    border-radius: 5px;
+}
+.Range:-webkit-slider-thumb {
+   
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #4CAF50; 
+   
+    cursor: pointer; 
+  }
+ 
+.Dashboard input{
+    margin-right: 50px;
+}
+.Dashboard i{
+    font-size: 30px;
+}

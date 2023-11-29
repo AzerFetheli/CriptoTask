@@ -1,0 +1,95 @@
+.Bitcoins{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 50px;
+}
+.overflow{
+    
+    width: 300px;
+    height: 600px;
+    overflow: auto;
+  
+}
+.overflow::-webkit-scrollbar {
+    display: none; 
+  }
+  .wallet{
+    width: 400px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0 22px 0 16px;
+}
+.wallet img{
+    width: 130px;
+    height: 130px;
+}
+.wallet2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -10%;
+    right: 27%;
+}
+.assest{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: #555;
+    font-weight: 600;
+}
+.total{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    color: white;
+    font-size: 1.3rem;
+}
+.currenc{
+    position: absolute;
+    top: 36%;
+    left: 27%;
+    background-color: transparent;
+    color: #555;
+    border: none;
+    font-size: 10px;
+}
+.mybit{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+.btc{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    color: #555;
+    font-size: 10px;
+}
+.changeCripto{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.myCards::-webkit-scrollbar {
+    display: none;
+}

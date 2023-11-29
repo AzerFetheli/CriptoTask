@@ -1,0 +1,46 @@
+.rightCard {
+    position: relative;
+    width: 280px;
+    border: 1px solid;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.rightCard .rankr {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #e0f64b;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+.rightCard .titler {
+    position: absolute;
+    font-size: .75rem;
+    font-weight: 700;
+    top: 35%;
+    left: 20%;
+}
+.rightCard .increaser {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    border: 1px solid transparent;
+    padding: 5px;
+    background-color: #1abc7b;
+    border-radius: 5px;
+}
+.walinc{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+ font-size: .75rem;
+ font-weight: 600;
+   
+}
